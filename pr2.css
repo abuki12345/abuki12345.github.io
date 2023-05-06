@@ -1,0 +1,50 @@
+button{  
+    width:65px;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    border-radius: 3px;
+    background-color:  rgb(93, 104, 98);
+    border: none;
+    color:white;
+    transition: opacity 0.15s;
+}
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    opacity:0.6;
+}
+#span{
+    background-color: rgb(48, 100, 202);
+    display: inline-block;
+    height: 90px;
+    width: 272px;
+    text-align: right;
+    color: rgb(241, 235, 235);
+    /*font-size: 25px;*/
+}
+#background{
+    background-color: rgb(46, 9, 8);
+    display: inline-block;
+    margin-top: 3px;
+}
+.result3{
+    vertical-align: bottom;
+}
+#red{
+    background-color:   rgba(230, 40, 60);
+}
+#total{
+    background-color: black;
+    display: inline-block;
+    /*margin-left: 500px;*/
+}
+.equal{
+    margin-left: 137px;
+    background-color: rgb(15, 180, 45);
+}
+.delete{
+    background-color: rgb(219, 145, 7);
+}
