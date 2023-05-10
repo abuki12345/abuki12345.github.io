@@ -174,7 +174,7 @@ function power( number1 ,number2 ){
 }
 function sqrt(number1){
     operator = 'r'
-    num1.innerText = "sqrt(" +num1.innerText+ ")"
+    num1.innerText = "sqrt(" +num1.innerText + ")"
     return Math.sqrt(Number(number1))
 }
 function log(number1){
@@ -267,7 +267,6 @@ function devide(){
 
 
 function Result () {
-    l+=1
     document.getElementById("equal").innerHTML = "="
     sum = Number(number1) + Number(number2)
     difference = Number(number1) - Number(number2)
@@ -302,31 +301,37 @@ function Result () {
     else if(operator === 'r'){
     resultEl.innerHTML = sqrt(number1)
     resultE2.innerHTML = sqrt(number1)
+    num1.innerText = `${number1}`
     result = sqrt(number1)
     }
     else if(operator === 'l'){
     resultEl.innerHTML = log(number1)
     resultE2.innerHTML = log(number1)
+    num1.innerText = `${number1}`
     result = log(number1)
     }
     else if(operator === 'ln'){
     resultEl.innerHTML = lan(number1)
     resultE2.innerHTML = lan(number1)
+    num1.innerText = `${number1}`
     result = lan(number1)
     }
     else if(operator === 'cos'){
     resultEl.innerHTML = cos(number1)
     resultE2.innerHTML = cos(number1)
+    num1.innerText = `${number1}`
     result = cos(number1)
     }
     else if(operator === 'sin'){
     resultEl.innerHTML = sin(number1)
     resultE2.innerHTML = sin(number1)
+    num1.innerText = `${number1}`
     result = sin(number1)
     }
     else if(operator === 'tan'){
     resultEl.innerHTML = tan(number1)
     resultE2.innerHTML = tan(number1)
+    num1.innerText = `${number1}`
     result = tan(number1)
     }
     else if(operator === 'pi'){
